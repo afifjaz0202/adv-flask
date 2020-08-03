@@ -1,5 +1,5 @@
 .env
 *.DS_Store
 *.vscode
-*__pyache__
+*__pycache__
 *.Mentor
