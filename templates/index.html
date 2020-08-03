@@ -1,4 +1,15 @@
 {% extends "main.html" %}
 {% block content %}
 <h1>Homepage content here</h1>
+
+<!-- Two methods to bring the user to the contact view function -->
+
+<!-- Option 1 -->
+<!-- <a href = "/contact">Contact Us</a> -->
+
+<!-- Option 2 -->
+<!-- More advantageous -->
+<!-- Able to change the trailing URL without breaking anything -->
+<a href = "{{ url_for('contact') }}">Contact Us</a>
+
 {% endblock %}
