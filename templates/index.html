@@ -1,6 +1,6 @@
 {% extends "_main.html" %}
 {% block content %}
-{% if first_name or last_name %}
+{% if first_name and last_name %}
   <p>Thank you for contacting us, {{first_name}} {{last_name}}</p>
 {% endif %}
 
